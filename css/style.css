@@ -430,6 +430,20 @@ label span:nth-child(3){
     background-color: var(--color-bg);
   }
 
+  .foot {
+    font-size: 18px;
+  }
+
+  .foot a{
+    text-decoration: none;
+    color: var(--color-main);
+    font-size: 18px;
+  }
+
+  .git {
+    font-size: 40px;
+  }
+
 @media (max-width: 576px) {
     .header p {
         font-size: 50px;
@@ -588,6 +602,21 @@ label span:nth-child(3){
         margin: 0 auto;
     }
 
+    .foot {
+        font-size: 15px;
+        display: flex;
+        text-align: center;
+      }
+    
+      .foot a{
+        text-decoration: none;
+        color: var(--color-main);
+        font-size: 15px;
+      }
+
+      .sobrenome {
+        display: none;
+      }
     
 }
 
