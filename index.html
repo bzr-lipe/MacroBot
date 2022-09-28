@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="./css/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <header id="#header">
     <div class="header">
@@ -33,8 +33,8 @@
         <div class="nav-items">
             <a href="#page2">CONHEÇA</a>
             <a href="#page3">MACROBOT</a>
-            <a href="#page5">NOSSO TIME</a>
-            <a href="#page7">FAÇA PARTE</a>
+            <a href="#page7">NOSSO TIME</a>
+            <a href="#page8">FAÇA PARTE</a>
         </div>
     </div>
 </header>
@@ -163,7 +163,77 @@
         </button>
       </div>
     </div>
+    <div class="page6" id="page6">
+      <h1>Vídeos</h1>
+      <div class="videos row">
+        <div class="video1 col-lg-6">
+          <div class="ratio ratio-16x9 ">
+            <iframe width="880" height="498" src="https://www.youtube.com/embed/U8F1AullJd0" title="Robocup-funcionamento/armas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video2 col-lg-6">
+          <div class="ratio ratio-16x9 ">
+            <iframe width="880" height="498" src="https://www.youtube.com/embed/P904-9aZ60I" title="Robocup-montagem" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="page7" id="page7">
+     <div class="box">
+      <span class="nossa">Nossa equipe</span></div>
+      <div></div>
+    </div>
+    <div class="page8" id="page8">
+      <form id="dados" name="dados" method="post" action="">
+        <h1>Faça Parte</h1>
+        <div class="row forms">
+          <div class="col-md-4 my-3">
+            <label for="usuario" class="form-label">Nome</label>
+            <input type="text" id="nomeForm" name="nomeForm"
+            class="form-control" placeholder="Digite seu nome aqui"
+            required>
+          </div>
+
+            <div class="col-md-4 my-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Ex: seuemail@email.com" required>
+            </div>
+
+            <div class="col-md-4 my-3">
+                <label for="area" class="form-label">Interesse</label>
+                <select name="area" id="area" class="form-select" required>
+                    <option value="0" disabled selected>Selecione sua opção</option>
+                    <option value="1">Investidor</option>
+                    <option value="2">Desenvolvedor</option>
+                    <option value="3">Parcerias</option>
+                </select>
+            </div>
+
+            <!-- texto -->
+            <div class="col-12 my-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" class="form-control"></textarea>
+            </div>
+           
+            <div class="col-12 my-3 d-flex justify-content-end" >
+                <input type="submit" value="Enviar" class="btn btn-enviar me-2">
+            </div>
+
+
+
+
+        </div>
+
+
+    </form>
+    </div>
 </body>
+<footer class="py-3 px-5">
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+    <p>Desenvolvido por <a href="https://github.com/bzr-lipe">Felipe Bezerra</a></p>
+    <a href=""><i class="fa-brands fa-github"></i></a>
+  </div>
+</footer<
 
 <script src="./js/script.js"></script>
 <!-- JavaScript Bundle with Popper -->
