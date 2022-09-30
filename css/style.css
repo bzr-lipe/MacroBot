@@ -50,8 +50,6 @@ header {
     color: var(--color-main);
 }
 
-.show576 {}
-
 .botaohamburger {
     display: none;
     margin: auto;
@@ -463,7 +461,7 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:var(--color-bg-light);
+    color: var(--color-bg-light);
     background-color: var(--color-bg);
     align-items: center;
     border-top: 1px solid var(--color-main);
@@ -522,7 +520,7 @@ textarea {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        }
+    }
 
     #page1 h1 {
         font-size: 55px;
@@ -809,7 +807,7 @@ textarea {
         margin-bottom: 20px;
     }
 
-    .ratio-next{
+    .ratio-next {
         width: 60%;
     }
 
@@ -928,7 +926,7 @@ textarea {
         margin: 0 auto;
     }
 
-    .ratio-next{
+    .ratio-next {
         width: 50%;
     }
 
@@ -940,7 +938,7 @@ textarea {
 @media(min-width: 1440px) {
 
     .btn-macrobot {
-        margin-top: 300px;
+        margin-top: 120px;
 
     }
 
