@@ -487,8 +487,10 @@ textarea {
     }
 
     #nav.active #menu {
-        height: calc(100vh - 70px);
+        height: calc(100vh - 50px);
+        width: 80%;
         visibility: visible;
+        border-left: 2px solid var(--color-main);
     }
 
     #menu {
@@ -504,7 +506,6 @@ textarea {
     #menu a {
         padding: 0.5rem 0;
         margin: 0 1rem;
-
         text-decoration: none;
         color: var(--color-bg-light);
 
@@ -538,6 +539,13 @@ textarea {
         text-align: center;
     }
 
+    .page3 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     .page3 p {
         text-align: center;
         margin: 50px auto 0;
@@ -552,6 +560,7 @@ textarea {
     .botoes a {
         margin-top: 20px;
         font-size: 15px;
+        width: 150px;
     }
 
     .page4 {
@@ -684,9 +693,13 @@ textarea {
         color: var(--color-bg-light);
     }
 
+    .page1 p {
+        margin-left: 50px;
+    }
+
     .btn-macrobot {
         width: 125px;
-        margin-top: 120px;
+        margin-top: 1px;
     }
 
     .botoes {
@@ -824,7 +837,7 @@ textarea {
     }
 
     .btn-macrobot {
-        margin-top: 150px;
+        margin-top: 60px;
     }
 
     .botoes {
@@ -925,6 +938,12 @@ textarea {
 }
 
 @media(min-width: 1440px) {
+
+    .btn-macrobot {
+        margin-top: 300px;
+
+    }
+
     .cards {
         width: 80%;
     }
