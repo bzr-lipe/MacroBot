@@ -1,4 +1,4 @@
-const btnMobile = document.getElementById('checkbox-menu');    
+const btnMobile = document.getElementById('checkbox-menu');   
 
 function toggleMenu() {
     if (event.type === 'touchstart') event.preventDefault;
@@ -8,4 +8,4 @@ function toggleMenu() {
 }
 
 btnMobile.addEventListener('click', toggleMenu);
-btnMobile.addEventListener('touchstart', toggleMenu);
+
