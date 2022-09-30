@@ -226,10 +226,8 @@ label span:nth-child(3) {
 }
 
 .introdution-text {
-    background-image: aqua;
     width: 70%;
     text-align: left;
-    margin-left: 50px;
     font-size: 25px;
     color: var(--color-bg-light);
 }
@@ -519,20 +517,21 @@ textarea {
     .page1 {
         background-image: url(../images/bg-image1.jpg);
         background-repeat: no-repeat;
-        padding-top: 65px;
-    }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
 
     #page1 h1 {
         font-size: 55px;
         text-align: center;
-        padding-top: 50px;
         color: var(--color-bg-light);
     }
 
     .introdution-text {
         width: 70%;
         text-align: left;
-        margin-left: 50px;
         font-weight: lighter;
         font-size: 19px;
 
