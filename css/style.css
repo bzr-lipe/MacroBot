@@ -210,6 +210,8 @@ label span:nth-child(3) {
 
 
 
+
+
 @keyframes brilho {
     0% {
         color: var(--color-main);
@@ -467,6 +469,27 @@ textarea {
     border-top: 1px solid var(--color-main);
 }
 
+.page-slide{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carozeell{
+    border: 1px solid black;
+}
+
+.page-slide h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.carozeell2 {
+    margin: 0 auto;
+}
 
 
 @media (max-width: 576px) {
