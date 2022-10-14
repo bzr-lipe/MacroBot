@@ -475,16 +475,19 @@ textarea {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url(../images/bg-slide.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .carozeell{
-    border: 1px solid black;
 }
 
 .page-slide h1 {
     font-weight: bold;
     font-size: 60px;
     margin-bottom: 40px;
+    color: #eff0f3;
 }
 
 .carozeell2 {
@@ -497,6 +500,12 @@ textarea {
         font-size: 50px;
         margin: auto auto 4px 0px;
         font-size: 30px;
+    }
+
+    .page-slide h1 {
+
+        font-size: 40px;
+ 
     }
 
     .header {
