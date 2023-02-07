@@ -504,7 +504,9 @@ textarea {
         display: flex;
     }
 
-
+    .btn-macrobot {
+        padding: 8px 50px;
+    }
 
 
 
@@ -551,12 +553,13 @@ textarea {
 
     .header-content {
         margin: 0;
+        margin-top: -70px;
     }
 
     .introdution-text {
         width: 70%;
         font-weight: lighter;
-        font-size: 19px;
+        font-size: 18px;
         text-align: center;
         margin: 0 auto;
     }
