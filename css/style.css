@@ -8,14 +8,9 @@
 }
 
 :root {
-    --color-main: #d9376e;
+    --color-main: #ff1b67;
     --color-bg: #0d0d0d;
     --color-bg-light: #eff0f3;
-}
-
-.page {
-    height: 100vh;
-    width: 100%;
 }
 
 body {
@@ -24,30 +19,21 @@ body {
 
 }
 
-.header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    position: absolute;
-}
-
 header {
     background-color: #0d0d0d;
     width: 100%;
     height: 70px;
     border-bottom: 5px solid var(--color-main);
     position: fixed;
-    z-index: 1000;
+    display: flex;
+    align-items: center;    
 }
 
-.header p {
-    font-size: 45px;
-    margin: auto auto;
-}
+
 
 .bot-word {
     color: var(--color-main);
+    transition: 0.3s;
 }
 
 .botaohamburger {
@@ -136,27 +122,47 @@ label span:nth-child(3) {
     overflow: hidden;
 }
 
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+}
+
+.navbar-logo{
+    font-size: 45px;
+}
+
+.navbar-logo a{
+    color: var(--color-bg-light);
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.navbar-logo a:hover  {
+    text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.5);
+
+}
+
+.navbar-logo a:hover .bot-word {
+    text-shadow: 1px 1px 10px var(--color-main);
+}
+
 .nav-items {
     display: flex;
-    width: 50%;
+    gap: 30px;
 }
 
 .nav-items a {
-    margin-right: 20px;
     text-decoration: none;
     color: var(--color-bg-light);
-    transition: .6s;
-}
-
-.nav-items a:nth-child(1) {
-    margin-left: auto;
-}
-
-.nav-items a:nth-child(4) {
-    margin-right: 0;
+    transition: .2s;
 }
 
 .nav-items a:hover {
+    text-shadow: 0px 0px 6px var(--color-main);
     color: var(--color-main);
 }
 
@@ -165,7 +171,10 @@ label span:nth-child(3) {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .bot span {
@@ -225,6 +234,11 @@ label span:nth-child(3) {
     }
 }
 
+.header-content {
+    margin-top: 70px;
+
+}
+
 .introdution-text {
     width: 70%;
     text-align: left;
@@ -233,20 +247,19 @@ label span:nth-child(3) {
 }
 
 .btn-macrobot {
-    background-color: var(--color-main);
-    color: #eff0f3;
-    border-radius: 30px;
+    color: var(--color-main);
+    border: 1px solid var(--color-main);
+    border-radius: 20px;
     display: flex;
-    width: 40%;
-    margin: 0 auto;
     text-decoration: none;
-    transition: .4s;
+    transition: .2s;
     justify-content: center;
     align-items: center;
+    padding: 10px 80px;
 }
 
 .btn-macrobot:hover {
-    background-color: #b02e5a;
+    background-color: var(--color-main);
     color: #eff0f3;
 }
 
@@ -682,13 +695,10 @@ textarea {
 
     }
 
-    .nav-items {
-        margin-right: 20px;
-    }
 
     #page1 h1 {
         font-size: 80px;
-        padding-top: 40px;
+
         margin-left: 50px;
         color: var(--color-bg-light);
     }
@@ -830,14 +840,6 @@ textarea {
     .nav-items a {
         font-size: 14px;
 
-    }
-
-    .nav-items {
-        margin-right: 50px;
-    }
-
-    .btn-macrobot {
-        margin-top: 60px;
     }
 
     .botoes {
