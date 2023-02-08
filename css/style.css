@@ -276,6 +276,10 @@ label span:nth-child(3) {
 
 .accordion {
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
 }
 
 .accordion-item {
@@ -284,6 +288,10 @@ label span:nth-child(3) {
     padding: 15px 30px;
     overflow: hidden;
     transition: 0.3s; 
+}
+
+.accordion-title{
+    transition: 0.3s;
 }
 
 .accordion-arrow{
@@ -301,6 +309,8 @@ label span:nth-child(3) {
     height: 2px;
     border-radius: 2px;
     background-color: var(--color-main);
+    transition: 0.3s;
+
 }
 
 .accordion-arrow-animate {
@@ -310,7 +320,6 @@ label span:nth-child(3) {
 
 .accordion-header {
     color: var(--color-bg-light);
-    background-color: aqua;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -320,6 +329,10 @@ label span:nth-child(3) {
     margin: 30px 0 10px;
     color: var(--color-bg-light);
     font-weight: 200;
+}
+
+.accordion-active{
+    height: 167px!important;
 }
 
 
