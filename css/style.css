@@ -5,6 +5,7 @@
     margin: 0;
     border: 0;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -292,6 +293,8 @@ label span:nth-child(3) {
 
 .accordion-title{
     transition: 0.3s;
+    font-weight: 400;
+
 }
 
 .accordion-arrow{
@@ -526,7 +529,6 @@ textarea {
     #menu {
         list-style-type: none;
         position: absolute;
-        padding-bottom: 30px;
         height: 0;
     }
 
@@ -581,6 +583,20 @@ textarea {
         padding: 60px 0;
     }
 
+    .accordion {
+        width: 90%;
+    }
+
+    .accordion-title {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .accordion-active{
+        height: 310px!important;
+    }
+
     .page3 {
         align-items: center;
         justify-content: center;
@@ -597,10 +613,10 @@ textarea {
     .botoes {
         flex-direction: column;
         margin-top: 35px;
+        gap: 20px;
     }
 
     .botoes a {
-        margin-top: 20px;
         font-size: 15px;
         width: 150px;
     }
