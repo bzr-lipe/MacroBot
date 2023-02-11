@@ -275,7 +275,7 @@ label span:nth-child(3) {
     padding: 60px 0;
 }
 
-.accordion {
+.accordion-macrobot {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -284,7 +284,7 @@ label span:nth-child(3) {
 }
 
 .accordion-item {
-    border: 1px solid var(--color-main);
+    border: 1px solid var(--color-main)!important;
     height: 68px;
     padding: 15px 30px;
     overflow: hidden;
@@ -293,7 +293,7 @@ label span:nth-child(3) {
 
 .accordion-title{
     transition: 0.3s;
-    font-weight: 400;
+    font-weight: 400!important;
 
 }
 
@@ -379,7 +379,8 @@ label span:nth-child(3) {
     margin: 0 0 50px 100px;
 }
 
-.cards {
+
+.cards-materiais {
     width: 100%;
     padding: 0 100px;
     display: flex;
@@ -387,11 +388,11 @@ label span:nth-child(3) {
     margin: 0 auto;
 }
 
-.card {
+.card-materiais {
     width: 300px;
 }
 
-.card img {
+.card-materiais img {
     width: 100%;
     border-radius: 10px;
 }
@@ -412,6 +413,10 @@ label span:nth-child(3) {
 
 }
 
+.card-text h2 {
+    font-size: 20px;
+}
+
 .page5 {
     height: 100vh;
     background-image: url(../images/bg-image3.jpg);
@@ -421,6 +426,11 @@ label span:nth-child(3) {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.carousel-imagens{
+    display: flex;
+    justify-content: center;
 }
 
 .page5 h1 {
@@ -621,12 +631,12 @@ textarea {
         padding: 60px 0;
     }
 
-    .accordion {
+    .accordion-macrobot {
         width: 90%;
     }
 
     .accordion-title {
-        font-size: 20px;
+        font-size: 20px!important;
         display: flex;
         align-items: center;
     }
@@ -661,12 +671,19 @@ textarea {
 
     .page4 {
         display: flex;
+        padding: 50px 0;
     }
 
     .page4 h1 {
         display: none;
     }
 
+    .cards-materiais {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0;
+        width: fit-content;
+    }
 
     .page5 {
         justify-content: center;
